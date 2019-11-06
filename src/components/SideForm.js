@@ -43,7 +43,7 @@ const SideForm = (props) => {
               value="Chips & Guac"
               name="sides"
               checked={ props.sides.includes('Chips & Guac') }
-              onChange={ props.handleChange }
+              onChange={ props.handleOnChange }
             />
             <img src={ require('../images/sides/chips-guac.png') } height="100px" width="100px" alt="chips and guac" />
             <label htmlFor="chips-guac">Chips & Guac</label>
